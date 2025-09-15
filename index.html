@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Invitación Especial</title>
+    <style>
+        body {
+            background: #ffe6f2;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            padding: 2rem 3rem;
+            text-align: center;
+            max-width: 400px;
+        }
+        .heart {
+            font-size: 3rem;
+            color: #ff4d88;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            color: #d6336c;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #444;
+        }
+        .btn {
+            margin-top: 2rem;
+            background: #ff4d88;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #d6336c;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart">💖</div>
+        <h1>¡Hola, mi niña bonita!</h1>
+        <p>
+            Quiero invitarte a una tarde de shopping juntos el <b>domingo 21 a las 5pm</b>.<br>
+            Me encantaría pasar tiempo contigo, elegir cosas lindas y disfrutar de tu compañía.<br>
+            ¿Aceptas mi invitación?
+        </p>
+        <button class="btn" onclick="alert('¡Te amo! Ya quiero salir de compras contigo 💕')">¡Sí, vamos!</button>
+    </div>
+</body>
+</html>
